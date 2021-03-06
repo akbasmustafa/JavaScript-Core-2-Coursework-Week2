@@ -30,7 +30,6 @@ let btnEl = document.querySelector("form button");
 console.log(btnEl.innerHTML);
 btnEl.addEventListener("click", function (e) {
   e.preventDefault();
-  alert("hello");
 
   let email = document.getElementById("exampleInputEmail1");
   let name = document.getElementById("example-text-input");
